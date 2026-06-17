@@ -137,7 +137,7 @@ main {
 
 .navbar__inner {
   width: min(1180px, calc(100% - 40px));
-  min-height: 74px;
+  min-height: 88px;
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -154,8 +154,8 @@ main {
 }
 
 .brand__logo {
-  width: 220px;
-  height: 66px;
+  width: 270px;
+  height: 80px;
   object-fit: contain;
   object-position: left center;
 }
@@ -165,8 +165,8 @@ html[dir="rtl"] .brand__logo {
 }
 
 .brand__logo--footer {
-  width: 250px;
-  height: 74px;
+  width: 310px;
+  height: 92px;
 }
 
 .brand__mark {
@@ -1173,8 +1173,8 @@ html[dir="rtl"] .empty-state__art span:nth-child(3) {
   }
 
   .brand__logo {
-    width: 172px;
-    height: 52px;
+    width: 210px;
+    height: 62px;
   }
 
   .hero-section {
