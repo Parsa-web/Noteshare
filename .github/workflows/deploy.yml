@@ -32,6 +32,17 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Enable Pages
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          curl --fail-with-body --request POST \
+            --url "https://api.github.com/repos/${{ github.repository }}/pages" \
+            --header "Authorization: Bearer ${GITHUB_TOKEN}" \
+            --header "Accept: application/vnd.github+json" \
+            --header "X-GitHub-Api-Version: 2022-11-28" \
+            --data '{"build_type":"workflow"}' || true
+
       - name: Configure Pages
         uses: actions/configure-pages@v5
 
