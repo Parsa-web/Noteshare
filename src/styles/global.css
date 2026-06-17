@@ -154,8 +154,8 @@ main {
 }
 
 .brand__logo {
-  width: 180px;
-  height: 54px;
+  width: 220px;
+  height: 66px;
   object-fit: contain;
   object-position: left center;
 }
@@ -165,8 +165,8 @@ html[dir="rtl"] .brand__logo {
 }
 
 .brand__logo--footer {
-  width: 210px;
-  height: 62px;
+  width: 250px;
+  height: 74px;
 }
 
 .brand__mark {
@@ -1173,8 +1173,8 @@ html[dir="rtl"] .empty-state__art span:nth-child(3) {
   }
 
   .brand__logo {
-    width: 148px;
-    height: 46px;
+    width: 172px;
+    height: 52px;
   }
 
   .hero-section {
