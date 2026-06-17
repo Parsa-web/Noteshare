@@ -153,6 +153,22 @@ main {
   color: var(--text);
 }
 
+.brand__logo {
+  width: 180px;
+  height: 54px;
+  object-fit: contain;
+  object-position: left center;
+}
+
+html[dir="rtl"] .brand__logo {
+  object-position: right center;
+}
+
+.brand__logo--footer {
+  width: 210px;
+  height: 62px;
+}
+
 .brand__mark {
   width: 36px;
   height: 36px;
@@ -1154,6 +1170,11 @@ html[dir="rtl"] .empty-state__art span:nth-child(3) {
   .navbar__nav a,
   .language-switcher select {
     width: 100%;
+  }
+
+  .brand__logo {
+    width: 148px;
+    height: 46px;
   }
 
   .hero-section {

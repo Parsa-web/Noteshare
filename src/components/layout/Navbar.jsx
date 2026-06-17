@@ -26,8 +26,8 @@ const Navbar = () => {
     <header className={`navbar ${scrolled ? 'navbar--scrolled' : ''}`}>
       <div className="navbar__inner">
         <Link className="brand" to="/" onClick={() => setMenuOpen(false)}>
-          <span className="brand__mark" aria-hidden="true">N</span>
-          <span>{t('app.name')}</span>
+          <img className="brand__logo" src={`${import.meta.env.BASE_URL}noteshare-logo.png`} alt="" />
+          <span className="sr-only">{t('app.name')}</span>
         </Link>
 
         <button className="navbar__toggle" type="button" aria-label={menuOpen ? t('nav.closeMenu') : t('nav.openMenu')} aria-expanded={menuOpen} onClick={() => setMenuOpen((open) => !open)}>
