@@ -15,7 +15,7 @@ const Footer = () => {
       <div className="container footer__inner">
         <div className="footer__brand">
           <div className="brand">
-            <img className="brand__logo brand__logo--footer" src={`${import.meta.env.BASE_URL}noteshare-logo.png`} alt="" />
+            <img className="brand__logo brand__logo--footer" src={`${import.meta.env.BASE_URL}noteshare-logo-cropped.png`} alt="" />
             <span className="sr-only">{t('app.name')}</span>
           </div>
           <p>{t('footer.description')}</p>

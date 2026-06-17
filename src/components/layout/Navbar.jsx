@@ -26,7 +26,7 @@ const Navbar = () => {
     <header className={`navbar ${scrolled ? 'navbar--scrolled' : ''}`}>
       <div className="navbar__inner">
         <Link className="brand" to="/" onClick={() => setMenuOpen(false)}>
-          <img className="brand__logo" src={`${import.meta.env.BASE_URL}noteshare-logo.png`} alt="" />
+          <img className="brand__logo" src={`${import.meta.env.BASE_URL}noteshare-logo-cropped.png`} alt="" />
           <span className="sr-only">{t('app.name')}</span>
         </Link>
 
