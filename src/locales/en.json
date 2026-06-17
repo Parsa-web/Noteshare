@@ -1,0 +1,198 @@
+{
+  "app": {
+    "name": "NoteShare",
+    "tagline": "Study files, organized for real student work.",
+    "copyright": "© 2026 NoteShare. All rights reserved."
+  },
+  "nav": {
+    "home": "Home",
+    "search": "Search",
+    "upload": "Upload",
+    "favorites": "Favorites",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu"
+  },
+  "language": {
+    "label": "Language",
+    "fa": "فارسی",
+    "en": "English"
+  },
+  "actions": {
+    "search": "Search",
+    "browseFiles": "Browse files",
+    "uploadFile": "Upload file",
+    "preview": "Preview",
+    "favorite": "Save",
+    "favorited": "Saved",
+    "removeFavorite": "Remove",
+    "download": "Download",
+    "share": "Share",
+    "openFile": "Open file",
+    "clearFilters": "Clear filters",
+    "returnHome": "Return home",
+    "viewAll": "View all",
+    "tryAgain": "Try again",
+    "submitUpload": "Publish file",
+    "chooseFile": "Choose file",
+    "changeFile": "Change file"
+  },
+  "home": {
+    "title": "NoteShare | Study Materials",
+    "heroHeadline": "Find study files in seconds",
+    "heroSubheadline": "Search notes, exams, summaries, worksheets, and class materials from one fast student-friendly library.",
+    "searchPlaceholder": "Search math notes, chemistry exams, English summaries...",
+    "primaryCta": "Start searching",
+    "secondaryCta": "Share a file",
+    "subjectsTitle": "Browse by subject",
+    "subjectsSubtitle": "Start from the course you are studying today.",
+    "recentTitle": "Latest files",
+    "recentSubtitle": "Fresh study materials added by students and tutors.",
+    "popularTitle": "Most downloaded",
+    "popularSubtitle": "Files students keep coming back to.",
+    "popularBadge": "Popular",
+    "featuresTitle": "Built for focused study",
+    "featuresSubtitle": "A clean workflow from discovery to review.",
+    "recentlyViewedTitle": "Recently viewed",
+    "recentlyViewedSubtitle": "Pick up where you left off.",
+    "noRecentlyViewed": "Files you open will appear here."
+  },
+  "features": {
+    "fastSearch": {
+      "title": "Fast Search",
+      "description": "Find the right file by subject, grade, type, or keyword without waiting."
+    },
+    "pdfPreview": {
+      "title": "PDF Preview",
+      "description": "Check the structure and quality of a document before downloading it."
+    },
+    "favorites": {
+      "title": "Favorites",
+      "description": "Save useful materials and build a small library for exam week."
+    }
+  },
+  "search": {
+    "title": "NoteShare | Search",
+    "heading": "Search study files",
+    "subtitle": "Filter notes, exams, summaries, and worksheets in real time.",
+    "placeholder": "Type a topic, subject, author, or grade...",
+    "filters": "Filters",
+    "results": "Results",
+    "resultsCount": "{{count}} files found",
+    "emptyTitle": "No files match your search",
+    "emptyDescription": "Try a broader keyword or clear a few filters.",
+    "allSubjects": "All subjects",
+    "allGrades": "All grades",
+    "allTypes": "All types",
+    "anyDate": "Any date",
+    "anyDownloads": "Any downloads",
+    "sortBy": "Sort by",
+    "subject": "Subject",
+    "grade": "Grade",
+    "fileType": "File type",
+    "date": "Date",
+    "downloads": "Downloads"
+  },
+  "filters": {
+    "newest": "Newest",
+    "oldest": "Oldest",
+    "mostDownloaded": "Most downloaded",
+    "titleAsc": "Title A-Z",
+    "lastWeek": "Last 7 days",
+    "lastMonth": "Last 30 days",
+    "lastQuarter": "Last 90 days",
+    "downloads100": "100+ downloads",
+    "downloads500": "500+ downloads",
+    "downloads1000": "1000+ downloads"
+  },
+  "file": {
+    "title": "NoteShare | {{title}}",
+    "notFoundTitle": "File not found",
+    "notFoundDescription": "This study file may have been moved or removed.",
+    "description": "Description",
+    "details": "File details",
+    "author": "Author",
+    "uploaded": "Uploaded",
+    "size": "Size",
+    "type": "Type",
+    "downloads": "Downloads",
+    "preview": "Document preview",
+    "previewHint": "Mock PDF viewer",
+    "page": "Page",
+    "relatedTitle": "Related files",
+    "relatedSubtitle": "Similar materials from the same subject.",
+    "shareSuccess": "Share link copied.",
+    "downloadStarted": "Preparing download..."
+  },
+  "upload": {
+    "title": "NoteShare | Upload",
+    "heading": "Upload study material",
+    "subtitle": "Share clean, useful files with other students.",
+    "titleLabel": "Title",
+    "titlePlaceholder": "Example: Algebra final exam review",
+    "subjectLabel": "Subject",
+    "gradeLabel": "Grade",
+    "descriptionLabel": "Description",
+    "descriptionPlaceholder": "What does this file cover?",
+    "fileLabel": "File",
+    "dropTitle": "Drop your file here",
+    "dropSubtitle": "PDF, DOCX, PNG, or JPG up to 20 MB",
+    "selectedFile": "Selected file",
+    "successTitle": "File uploaded successfully",
+    "successDescription": "Your file is saved locally and appears in search results.",
+    "summary": "Upload summary",
+    "errors": {
+      "title": "Please enter a title.",
+      "subject": "Please choose a subject.",
+      "grade": "Please choose a grade.",
+      "description": "Please add a description.",
+      "file": "Please upload a file.",
+      "type": "Supported file types are PDF, DOCX, PNG, and JPG.",
+      "size": "File size must be 20 MB or less."
+    }
+  },
+  "favorites": {
+    "title": "NoteShare | Favorites",
+    "heading": "Saved files",
+    "subtitle": "Your personal study shortlist.",
+    "searchPlaceholder": "Search saved files...",
+    "emptyTitle": "No saved files yet",
+    "emptyDescription": "Save files while browsing and they will stay here.",
+    "noMatchesTitle": "No saved files match that search",
+    "noMatchesDescription": "Try another keyword."
+  },
+  "notFound": {
+    "title": "NoteShare | Page not found",
+    "heading": "Page not found",
+    "description": "The page you are looking for does not exist or has moved."
+  },
+  "footer": {
+    "description": "A modern library for discovering, previewing, saving, and sharing educational files.",
+    "quickLinks": "Quick links"
+  },
+  "subjects": {
+    "math": "Math",
+    "physics": "Physics",
+    "chemistry": "Chemistry",
+    "biology": "Biology",
+    "english": "English",
+    "computer": "Computer Science"
+  },
+  "grades": {
+    "middle": "Middle School",
+    "grade10": "Grade 10",
+    "grade11": "Grade 11",
+    "grade12": "Grade 12",
+    "university": "University",
+    "examPrep": "Exam Prep"
+  },
+  "types": {
+    "pdf": "PDF",
+    "docx": "DOCX",
+    "png": "PNG",
+    "jpg": "JPG"
+  },
+  "meta": {
+    "files": "{{count}} files",
+    "downloads": "{{count}} downloads"
+  }
+}

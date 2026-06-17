@@ -1,0 +1,198 @@
+{
+  "app": {
+    "name": "نوت شیر",
+    "tagline": "فایل‌های درسی، مرتب برای مطالعه واقعی.",
+    "copyright": "© ۲۰۲۶ نوت شیر. همه حقوق محفوظ است."
+  },
+  "nav": {
+    "home": "خانه",
+    "search": "جستجو",
+    "upload": "بارگذاری",
+    "favorites": "علاقه‌مندی‌ها",
+    "openMenu": "باز کردن منو",
+    "closeMenu": "بستن منو"
+  },
+  "language": {
+    "label": "زبان",
+    "fa": "فارسی",
+    "en": "English"
+  },
+  "actions": {
+    "search": "جستجو",
+    "browseFiles": "دیدن فایل‌ها",
+    "uploadFile": "بارگذاری فایل",
+    "preview": "پیش‌نمایش",
+    "favorite": "ذخیره",
+    "favorited": "ذخیره شد",
+    "removeFavorite": "حذف",
+    "download": "دانلود",
+    "share": "اشتراک‌گذاری",
+    "openFile": "باز کردن فایل",
+    "clearFilters": "پاک کردن فیلترها",
+    "returnHome": "بازگشت به خانه",
+    "viewAll": "مشاهده همه",
+    "tryAgain": "تلاش دوباره",
+    "submitUpload": "انتشار فایل",
+    "chooseFile": "انتخاب فایل",
+    "changeFile": "تغییر فایل"
+  },
+  "home": {
+    "title": "نوت شیر | جزوه‌های درسی",
+    "heroHeadline": "فایل‌های درسی را در چند ثانیه پیدا کن",
+    "heroSubheadline": "جزوه، نمونه‌سوال، خلاصه، کاربرگ و منابع کلاسی را از یک کتابخانه سریع و دانش‌آموزپسند جستجو کن.",
+    "searchPlaceholder": "جستجوی جزوه ریاضی، امتحان شیمی، خلاصه زبان...",
+    "primaryCta": "شروع جستجو",
+    "secondaryCta": "اشتراک فایل",
+    "subjectsTitle": "مرور بر اساس درس",
+    "subjectsSubtitle": "از درسی شروع کن که امروز می‌خوانی.",
+    "recentTitle": "جدیدترین فایل‌ها",
+    "recentSubtitle": "منابع تازه‌ای که دانش‌آموزان و مدرسان اضافه کرده‌اند.",
+    "popularTitle": "پربارگیری‌ترین‌ها",
+    "popularSubtitle": "فایل‌هایی که دانش‌آموزان دوباره به آن‌ها برمی‌گردند.",
+    "popularBadge": "محبوب",
+    "featuresTitle": "ساخته شده برای مطالعه متمرکز",
+    "featuresSubtitle": "یک مسیر تمیز از پیدا کردن تا مرور.",
+    "recentlyViewedTitle": "بازدیدهای اخیر",
+    "recentlyViewedSubtitle": "ادامه بده از همان جایی که مانده بود.",
+    "noRecentlyViewed": "فایل‌هایی که باز می‌کنی اینجا نمایش داده می‌شوند."
+  },
+  "features": {
+    "fastSearch": {
+      "title": "جستجوی سریع",
+      "description": "فایل مناسب را بر اساس درس، پایه، نوع یا کلمه کلیدی بدون انتظار پیدا کن."
+    },
+    "pdfPreview": {
+      "title": "پیش‌نمایش PDF",
+      "description": "قبل از دانلود، ساختار و کیفیت فایل را بررسی کن."
+    },
+    "favorites": {
+      "title": "علاقه‌مندی‌ها",
+      "description": "منابع مفید را ذخیره کن و برای هفته امتحان یک کتابخانه کوچک بساز."
+    }
+  },
+  "search": {
+    "title": "نوت شیر | جستجو",
+    "heading": "جستجوی فایل‌های درسی",
+    "subtitle": "جزوه، نمونه‌سوال، خلاصه و کاربرگ را به‌صورت زنده فیلتر کن.",
+    "placeholder": "موضوع، درس، نویسنده یا پایه را وارد کن...",
+    "filters": "فیلترها",
+    "results": "نتایج",
+    "resultsCount": "{{count}} فایل پیدا شد",
+    "emptyTitle": "فایلی مطابق جستجو پیدا نشد",
+    "emptyDescription": "کلمه کلیدی عمومی‌تر وارد کن یا چند فیلتر را پاک کن.",
+    "allSubjects": "همه درس‌ها",
+    "allGrades": "همه پایه‌ها",
+    "allTypes": "همه نوع‌ها",
+    "anyDate": "هر تاریخی",
+    "anyDownloads": "هر تعداد دانلود",
+    "sortBy": "مرتب‌سازی",
+    "subject": "درس",
+    "grade": "پایه",
+    "fileType": "نوع فایل",
+    "date": "تاریخ",
+    "downloads": "دانلودها"
+  },
+  "filters": {
+    "newest": "جدیدترین",
+    "oldest": "قدیمی‌ترین",
+    "mostDownloaded": "بیشترین دانلود",
+    "titleAsc": "عنوان الفبا",
+    "lastWeek": "۷ روز اخیر",
+    "lastMonth": "۳۰ روز اخیر",
+    "lastQuarter": "۹۰ روز اخیر",
+    "downloads100": "بیش از ۱۰۰ دانلود",
+    "downloads500": "بیش از ۵۰۰ دانلود",
+    "downloads1000": "بیش از ۱۰۰۰ دانلود"
+  },
+  "file": {
+    "title": "نوت شیر | {{title}}",
+    "notFoundTitle": "فایل پیدا نشد",
+    "notFoundDescription": "این فایل درسی ممکن است منتقل یا حذف شده باشد.",
+    "description": "توضیحات",
+    "details": "جزئیات فایل",
+    "author": "نویسنده",
+    "uploaded": "بارگذاری شده",
+    "size": "حجم",
+    "type": "نوع",
+    "downloads": "دانلودها",
+    "preview": "پیش‌نمایش سند",
+    "previewHint": "نمایشگر PDF آزمایشی",
+    "page": "صفحه",
+    "relatedTitle": "فایل‌های مرتبط",
+    "relatedSubtitle": "منابع مشابه از همین درس.",
+    "shareSuccess": "لینک اشتراک‌گذاری کپی شد.",
+    "downloadStarted": "در حال آماده‌سازی دانلود..."
+  },
+  "upload": {
+    "title": "نوت شیر | بارگذاری",
+    "heading": "بارگذاری منبع درسی",
+    "subtitle": "فایل‌های تمیز و کاربردی را با دانش‌آموزان دیگر به اشتراک بگذار.",
+    "titleLabel": "عنوان",
+    "titlePlaceholder": "مثال: مرور امتحان نهایی جبر",
+    "subjectLabel": "درس",
+    "gradeLabel": "پایه",
+    "descriptionLabel": "توضیحات",
+    "descriptionPlaceholder": "این فایل چه مباحثی را پوشش می‌دهد؟",
+    "fileLabel": "فایل",
+    "dropTitle": "فایل را اینجا رها کن",
+    "dropSubtitle": "PDF، DOCX، PNG یا JPG تا ۲۰ مگابایت",
+    "selectedFile": "فایل انتخاب‌شده",
+    "successTitle": "فایل با موفقیت بارگذاری شد",
+    "successDescription": "فایل به‌صورت محلی ذخیره شد و در نتایج جستجو نمایش داده می‌شود.",
+    "summary": "خلاصه بارگذاری",
+    "errors": {
+      "title": "لطفا عنوان را وارد کن.",
+      "subject": "لطفا درس را انتخاب کن.",
+      "grade": "لطفا پایه را انتخاب کن.",
+      "description": "لطفا توضیحات را اضافه کن.",
+      "file": "لطفا یک فایل بارگذاری کن.",
+      "type": "نوع‌های مجاز PDF، DOCX، PNG و JPG هستند.",
+      "size": "حجم فایل باید ۲۰ مگابایت یا کمتر باشد."
+    }
+  },
+  "favorites": {
+    "title": "نوت شیر | علاقه‌مندی‌ها",
+    "heading": "فایل‌های ذخیره‌شده",
+    "subtitle": "فهرست شخصی منابع درسی تو.",
+    "searchPlaceholder": "جستجوی فایل‌های ذخیره‌شده...",
+    "emptyTitle": "هنوز فایلی ذخیره نشده",
+    "emptyDescription": "هنگام مرور فایل‌ها، موارد مفید را ذخیره کن تا اینجا بمانند.",
+    "noMatchesTitle": "هیچ فایل ذخیره‌شده‌ای مطابق جستجو نیست",
+    "noMatchesDescription": "کلمه دیگری را امتحان کن."
+  },
+  "notFound": {
+    "title": "نوت شیر | صفحه پیدا نشد",
+    "heading": "صفحه پیدا نشد",
+    "description": "صفحه‌ای که دنبالش هستی وجود ندارد یا جابه‌جا شده است."
+  },
+  "footer": {
+    "description": "کتابخانه‌ای مدرن برای پیدا کردن، پیش‌نمایش، ذخیره و اشتراک‌گذاری فایل‌های آموزشی.",
+    "quickLinks": "لینک‌های سریع"
+  },
+  "subjects": {
+    "math": "ریاضی",
+    "physics": "فیزیک",
+    "chemistry": "شیمی",
+    "biology": "زیست‌شناسی",
+    "english": "زبان انگلیسی",
+    "computer": "علوم کامپیوتر"
+  },
+  "grades": {
+    "middle": "متوسطه اول",
+    "grade10": "پایه دهم",
+    "grade11": "پایه یازدهم",
+    "grade12": "پایه دوازدهم",
+    "university": "دانشگاه",
+    "examPrep": "آمادگی آزمون"
+  },
+  "types": {
+    "pdf": "PDF",
+    "docx": "DOCX",
+    "png": "PNG",
+    "jpg": "JPG"
+  },
+  "meta": {
+    "files": "{{count}} فایل",
+    "downloads": "{{count}} دانلود"
+  }
+}
